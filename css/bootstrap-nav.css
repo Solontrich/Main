@@ -53,7 +53,32 @@
 }
 
 .bg-image {
-  background-image: url('background-image.jpg');
+  background: url(../img/banner.jpg)no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.logo {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff; 
+  color: #FFC107; 
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #FFC107;
+}
+
+.logo-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-slogan {
+  font-size: 16px;
+  color: #FFC107;
+  margin-top: 10px;
 }
