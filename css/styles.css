@@ -4,9 +4,10 @@ body {
 }
 
 .recipe-table {
-  border-collapse: collapse;
+  border-collapse: separate;
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-spacing: 0;
 }
 
 .recipe-header {
@@ -20,6 +21,7 @@ th, td {
   border: 1px solid #ddd;
   padding: 10px;
   text-align: left;
+  vertical-align: top;
 }
 
 th {
@@ -43,3 +45,49 @@ ol {
 ol li {
   margin-bottom: 10px;
 }
+
+.navbar {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+}
+
+.icon-block {
+display: flex;
+align-items: center;
+background-color: #34C759;
+padding: 10px;
+border-radius: 5px;
+}
+
+.home-icon {
+width: 24px;
+height: 24px;
+border: 2px solid #333;
+border-top: none;
+border-radius: 0 0 50% 50%;
+position: relative;
+margin-right: 10px;
+}
+
+.home-icon::before {
+content: "";
+width: 10px;
+height: 10px;
+background-color: #333;
+position: absolute;
+top: -10px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.home-icon::after {
+content: "";
+width: 4px;
+height: 4px;
+background-color: #333;
+position: absolute;
+top: -16px;
+left: 50%;
+transform: translateX(-50%);
+  }
