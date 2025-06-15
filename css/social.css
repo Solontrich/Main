@@ -1,37 +1,3 @@
-.instagram-icon {
-  width: 24px;
-  height: 24px;
-  background: linear-gradient(45deg, #E4405F, #F58529);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.instagram-icon::before {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 12px;
-  height: 12px;
-  background-color: #FFFFFF;
-  border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.instagram-icon::after {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 8px;
-  width: 4px;
-  height: 4px;
-  background-color: #FFFFFF;
-  border-radius: 50%;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
-}
-
 .pinterest-icon {
   width: 24px;
   height: 24px;
