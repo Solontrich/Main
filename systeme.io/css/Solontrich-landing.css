@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 588 ebook landing
-
-https://templatemo.com/tm-588-ebook-landing
-
-*/
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -553,7 +545,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/ProfessionalBusiness.png');
+  background-image: url('https://solontrich.github.io/Main/systeme.io/images/ProfessionalBusiness.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -766,7 +758,7 @@ strong {
   AUTHOR SECTION            
 -----------------------------------------*/
 .author-section {
-  background-image: url('../images/circle-scatter-haikei.png');
+  background-image: url('https://solontrich.github.io/Main/systeme.io//images/circle-scatter-haikei.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left bottom;
